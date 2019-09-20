@@ -19,7 +19,7 @@ public class MyHttpURLConnection {
     // HTTP GET request
     public String sendGet(String latitude, String longitude) throws Exception {
 
-        String url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + latitude + "," + longitude +"&key=AIzaSyA1H5ZnQT-NjPOSc35SKpCyrzU1L9KnirA";
+        String url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + latitude + "," + longitude +"ENTER API KEY HERE";
 
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
