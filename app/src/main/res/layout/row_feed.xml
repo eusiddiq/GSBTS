@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:background="@drawable/background_border">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/notifications_Text2"
+                android:text="12:02 PM"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:layout_alignParentLeft="true"
+            />
+
+            <TextView
+                android:id="@+id/notifications_Text3"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THIS IS A TEST NOTIFICATION TEXT BOX. It can hold many characters."
+                android:textSize="16sp"
+                android:layout_toRightOf="@id/notifications_Text2"
+            />
+    </RelativeLayout>
+</LinearLayout>

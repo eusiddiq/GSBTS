@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cc1e1e</color>
+    <color name="colorPrimaryDark">#cc1e1e</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="busRouteColor">#bb0000</color>
+    <color name="redRouteColor">#bb0000</color>
+    <color name="greenRouteColor">#399134</color>
+    <color name="whiteColor">#ffffff</color>
+    <color name="feedColor">#808080</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/setting" />
+
+    <LinearLayout
+        android:id="@+id/layout_Settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/notifications_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="notifications_Text"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textStyle="bold"
+            tools:text="Notifications" />
+
+        <Switch
+            android:id="@+id/notifications1_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="notifications1_Text"
+            tools:text="Set Notifications For Bus Arrival" />
+
+        <Switch
+            android:id="@+id/notifications2_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="notifications2_Text"
+            tools:text="Set Notifications For Delays, Emergencies, or Other Alerts" />
+
+        <Switch
+            android:id="@+id/notifications3_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="notifications3_Text"
+            tools:text="Set Notifications For Others " />
+    </LinearLayout>
+
+</FrameLayout>

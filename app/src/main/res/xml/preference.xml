@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <SwitchPreference
+        android:id="@+id/notification_enable"
+        android:key="notification_enable"
+        android:defaultValue="true"
+        android:summary="This option if selected will allow the application to send you notification."
+        android:title="Enable Notifications" />
+    <SwitchPreference
+        android:id="@+id/disable_my_account"
+        android:title="Disable My Account"
+        android:defaultValue="true"
+        android:summary="This option if selected will disable your account."
+        android:key="disable_my_account"
+        />
+</PreferenceScreen>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactFragment">
+
+    <LinearLayout
+        android:id="@+id/layout_Settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/alerts_Text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            tools:text="Alerts" />
+
+        <Switch
+            android:id="@+id/alert1_Checkbox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="My Student Will Not Be Riding The Bus Today"
+            android:textSize="14sp" />
+
+        <Switch
+            android:id="@+id/alert2_Checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="My Student Will Not Be Riding The Bus In The Morning"
+            android:textSize="14sp" />
+
+        <Switch
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="My Student Will Not Be Riding The Bus In The Afternoon"
+            android:textSize="14sp" />
+
+        <Switch
+            android:id="@+id/checkBox6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="My Student Will Not Be Riding The Bus Today"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</FrameLayout>
