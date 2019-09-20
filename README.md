@@ -10,6 +10,6 @@ Instructions for Running GSBTS
 *     4. On the contact page, it allows the parents to have contact information of the school adminstration 
 *     5. On the settings page, it allows parents to turn on or off some settings such as notifications 
     
-    Driver 
+    Run the application as a Driver 
 *     1. login email: okalhajr@uark.edu password: iloveemad 
 *     2. The driver can select which bus that he/she will operate today and see which kids are currently on board and off board
